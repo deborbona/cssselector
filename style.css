@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 20px;
+  padding: 20px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #000;
+}
+
+.mainContainer h1{
+  display: flex;
+  justify-content: center;
+  color: #fff
+}
+
+.textFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.textFlex > div {
+  border: 5px solid white;
+  padding: 30px;
+}
+
+.textFlex > div:hover {
+  background-color: #95BAE8;
+}
+
+.smallContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textFlex h3 {
+  margin-bottom: 64px;
+}
+
+p {
+  margin-top: 32px;
+}
